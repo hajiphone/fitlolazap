@@ -1,0 +1,36 @@
+ MINGW64 /d/gitmekiani (main)
+$ ssh-keygen -t rsa -b 4096 -C "t15mongithub@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/mekiani/.ssh/id_rsa):
+Created directory '/c/Users/mekiani/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/mekiani/.ssh/id_rsa
+Your public key has been saved in /c/Users/mekiani/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:Z13p+M+63MyHn4Xlp6wOIp0yooPPlXfuMrgzRByYzXw t15mongithub@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|   *             |
+|  o = E        . |
+|   . o        o  |
+|    o      . +   |
+|   .    S o o . .|
+|    .. . +   . + |
+| . .+.= = .   o.+|
+|...o+oo* . . o.B=|
+| .+..+ +o  .o.*=O|
++----[SHA256]-----+
+
+mekiani@LAPTOP-MQ98PMG4 MINGW64 /d/gitmekiani (main)
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCLM5KNHv55ioYVLUpKcIN4MYjeP419404GfmJ0EChj0uQrBBJNktxzSKqlfDjAsI45mChvE7m8DGVXx12T37a3Bl8dACD69TvbmifaG2PM1SYaeN057IeFkcyDc65nOGR/A7ZGJBQTjKgq3EVbHv8YMTHwcv0cmD9f4Mz31Ab+dfs4r4eEb+GKypajs0JAIG5W3BA+5OlUtT0OJvy9uJHEWI+7YSnXWlxllc2fYw+tiQkewglF9eUVaq3XWLHLJYwiPvJ2/CQavTN+NcRG/k9tWWUitwKMEMgrCEQoHUvC1UKePcCCGFV6V4JOQ6LdIMD/Rs9em6zJnrQodKM8g6dhfAW/Mw7dRVlXl3zIhinfniDTDz20JpEYrs8WRq9OjeezEM28iDMSdvnWiafvvYbGx1yf3OY2OaPTRYjsb5cArYpVnwe6TAsLK4Wh4izPqBG/DXgdQ29LhfkqFNbhtoEuL2pQgvdYgJYEslKdUuf1OPsffq7JHbwaLoTjRFh+XI/xl39gvSNVcbSKpwDFqdQ593oG8m+szgjHeMkMLc9iccc0bKZOfXz0GWjKGXZ7lfjkZ6kyX4EBFEVa3AXETKxueuqzu/cIP/114HP2/WRIKbxv/zlFQ3Lxg17D1nktV2j/3EtpcTb3le1WfM0n+TqoeGj6yyH/zEz9DFCz96QBCw== t15mongithub@gmail.com
+
+mekiani@LAPTOP-MQ98PMG4 MINGW64 /d/gitmekiani (main)
+$ git config --global url."git@github.com:".insteadOf "https://github.com/"
+
+mekiani@LAPTOP-MQ98PMG4 MINGW64 /d/gitmekiani (main)
+$ ssh-keygen -t rsa -b 4096 -C "t15mongithub@gmail.com"
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCLM5KNHv55ioYVLUpKcIN4MYjeP419404GfmJ0EChj0uQrBBJNktxzSKqlfDjAsI45mChvE7m8DGVXx12T37a3Bl8dACD69TvbmifaG2PM1SYaeN057IeFkcyDc65nOGR/A7ZGJBQTjKgq3EVbHv8YMTHwcv0cmD9f4Mz31Ab+dfs4r4eEb+GKypajs0JAIG5W3BA+5OlUtT0OJvy9uJHEWI+7YSnXWlxllc2fYw+tiQkewglF9eUVaq3XWLHLJYwiPvJ2/CQavTN+NcRG/k9tWWUitwKMEMgrCEQoHUvC1UKePcCCGFV6V4JOQ6LdIMD/Rs9em6zJnrQodKM8g6dhfAW/Mw7dRVlXl3zIhinfniDTDz20JpEYrs8WRq9OjeezEM28iDMSdvnWiafvvYbGx1yf3OY2OaPTRYjsb5cArYpVnwe6TAsLK4Wh4izPqBG/DXgdQ29LhfkqFNbhtoEuL2pQgvdYgJYEslKdUuf1OPsffq7JHbwaLoTjRFh+XI/xl39gvSNVcbSKpwDFqdQ593oG8m+szgjHeMkMLc9iccc0bKZOfXz0GWjKGXZ7lfjkZ6kyX4EBFEVa3AXETKxueuqzu/cIP/114HP2/WRIKbxv/zlFQ3Lxg17D1nktV2j/3EtpcTb3le1WfM0n+TqoeGj6yyH/zEz9DFCz96QBCw== t15mongithub@gmail.com
